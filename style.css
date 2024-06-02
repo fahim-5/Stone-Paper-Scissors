@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.choice:hover{
+    background-color: black;
+
+
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    height:300px ;
+    width:100% ;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 5rem;
+    
+}
+
+#user-score ,#Computer-score{
+    font-size: 4rem;
+}
+
+#msg{
+     font-size: 2rem;
+     background-color: black;
+     display: inline;
+     border-radius: 8px;
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 12px;
+}
+
+
+.msg-container{
+    padding-top: 45px;
+}
